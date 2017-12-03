@@ -1,0 +1,25 @@
+{
+  "name": "lambdacat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-fetch": "^1.7.3",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "zip": "zip -r lambdacat.zip *"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nesta219/lambdacat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nesta219/lambdacat/issues"
+  },
+  "homepage": "https://github.com/nesta219/lambdacat#readme"
+}
