@@ -13,7 +13,7 @@
 
 > Create a copy of `config.sample.json`, rename it to `config.json`, and fill it in with your appropriate AWS credentials.
 
-> run `npm run zip` to create your deployment package, set your lambda function's code entry type to `Upload a .ZIP file`, and then upload the zip file
+> Run `npm install` to retrieve JS dependencies, then run `npm run zip` to create your deployment package, set your lambda function's code entry type to `Upload a .ZIP file`, and then upload the zip file
 
 > Add a recurring trigger by clicking on `CloudWatch Events` in the `Add a Trigger` panel.  Create a new rule with a `cron` or `rate` expression of your choosing in the `Schedule expression` field.  Click add.
 
